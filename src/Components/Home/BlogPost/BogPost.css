@@ -1,0 +1,16 @@
+.card {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    /* min-width: 18rem; */
+    box-shadow: 6px 6px 7px 0px black;
+    color: #9f0505;
+}
+
+.fullBlog{
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.fullBlog > div{
+    max-width: 700px;
+}

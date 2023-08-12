@@ -1,0 +1,37 @@
+.myNavbar {
+    background: linear-gradient(180deg, #332a2a, black);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    box-shadow: 0px -35px 40px 1px black;
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 0px 10px;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+
+.logo a {
+    color: white;
+    /* padding: 10px 25px!important; */
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 900;
+    letter-spacing: 2.8px;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: red;
+    transition: 0.5s all ease-in-out;
+}
